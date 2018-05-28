@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body {
+  border: 3px solid #333;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  text-shadow: 4px 4px 4px #aaa;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height:60%;
+
+  box-shadow: 2px 2px 2px #aaa
+}

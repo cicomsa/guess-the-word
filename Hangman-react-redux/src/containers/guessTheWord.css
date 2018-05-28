@@ -1,0 +1,11 @@
+.newWord:hover {
+  color: teal;
+}
+
+.result {
+  color: purple;
+}
+
+.newWord {
+  padding: 90px;
+}

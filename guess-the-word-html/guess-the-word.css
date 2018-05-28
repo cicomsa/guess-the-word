@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+body {
+  border: 2px solid #333;
+}
+
+a {
+  font-family: 'Special Elite', cursive;
+  width: 450px;
+  text-align: center;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+#guessWord {
+  top: 42%;
+  left: 50%;
+  font-size: 50px;
+  color:blue;
+}
+#guessWord:hover {
+    color: red;
+}
+#guessWord:active {
+  color: blue;
+}
+
+#newWord {
+  font-size: 25px;
+  top: 48%;
+  left: 50%;
+  color: purple
+}
+#newWord:hover {
+    color: black;
+}
+#newWord:active {
+  color: purple;
+}
