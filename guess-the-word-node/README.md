@@ -2,11 +2,11 @@
 
 ## Project description:
 
-This is a node version of the Hangman game.
+This is the node version of the Hangman game.
 
 ## The goal of the app is:
 
-* To have built a Hangman game version to be played in node.
+* To have built a version of the Hangman game which can be played in node.
 
 ## To play the game:
 
