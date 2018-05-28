@@ -20,9 +20,11 @@ a {
   font-size: 50px;
   color:blue;
 }
+
 #guessWord:hover {
     color: red;
 }
+
 #guessWord:active {
   color: blue;
 }
@@ -33,9 +35,11 @@ a {
   left: 50%;
   color: purple
 }
+
 #newWord:hover {
     color: black;
 }
+
 #newWord:active {
   color: purple;
 }
