@@ -24,13 +24,17 @@ class GuessTheWord extends PureComponent {
 
     <div className="mainPage">
       <div className ="content">
-        <img className="image"src={hangmanImage} alt="hangmanImage"/>
+        <img className="image"
+          src={hangmanImage} alt="hangmanImage"/>
         <p>Number of tries left: </p>
         <p>{numberTries}</p>
         <p>{guess}</p>
         {numberTries > 0 && <GuessForm/>}
         {br()}
-        <p className="newWord" onClick={() => window.location.reload()}>New Word</p>
+        <p className="newWord" 
+          onClick={() => window.location.reload()}>
+          New Word
+        </p>
       </div>
     </div>
     )

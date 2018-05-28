@@ -6,7 +6,8 @@ let tries = 1
 function showGuess(word, guesses) {
   guessArray = []
   splitWord = word.split("")
-  splitWord.filter(n => guesses.indexOf(n) != -1 ? guessArray.push(n) : guessArray.push("_"))
+  splitWord.filter(n => guesses.indexOf(n) != -1 ? 
+    guessArray.push(n) : guessArray.push("_"))
   guessArray = guessArray.join(" ")
   return guessArray
 }
@@ -22,7 +23,8 @@ function play(word, guesses) {
   console.log("Word to guess: "+ dashes)
 
   var recursiveAsyncReadLine = function () {
-    rl.question("Input letter or write 'exit' to end the game: ", answer => {
+    rl.question("Input letter or write 'exit' to end the game: ", 
+    answer => {
       if (answer === 'exit')
         return rl.close();
       letterArray += answer.trim()
